@@ -1,0 +1,4 @@
+name: AntiAutoFish
+version: '${version}'
+main: com.noticemc.antiautofish.AntiAutoFish
+api-version: 1.18
