@@ -46,5 +46,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./build/libs/AntiAutoFish-1.0-SNAPSHOT.jar
-          asset_name: AntiAutoFish_${{ steps.tag_version.outputs.new_tag }}.jar
+          asset_name: NoticeAntiAutoFish_${{ steps.tag_version.outputs.new_tag }}.jar
           asset_content_type: application/jar
